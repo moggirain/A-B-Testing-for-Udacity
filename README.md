@@ -1,4 +1,3 @@
-# A-B-Testing-for-Udacity-Courses
 # A/B Testing for an Pre-enrollment Intervention in Udacity 
 
 ## Experiment Description
