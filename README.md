@@ -62,7 +62,7 @@ Here, we are concerned about whether students click the "free trial" and if stud
 
 
 | Metric Name  | Metric Formula  | $Dmin$  |
-|:--------:|:--------:|:--------:|:--------:|
+|:--------:|:--------:|:--------:|
 | Gross Conversion   |  #enrolled / C_l  | 0.01  | 
 | Retention   | #paid / #enrolled  | 0.01  |
 | Net Conversion  |  #paid / C_l  | 0.0075 |
