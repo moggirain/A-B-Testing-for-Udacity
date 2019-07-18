@@ -39,7 +39,7 @@ Here two types of metrics are selected for a successful experiment: Invariant an
 
 ***Invariant metrics*** are used for sanity checks or A/A experiment before running the experiment, such as checking if the distributions are the same between control and experiment group, to make sure our experiment is not inherently wrong. Invariant metrics usually have a larger unit of diversion, randomly selected, or happens before the experiment starts.  
 
-| Metric Name  | Metric Formula  | $Dmin$  | Notation |
+| Metric Name  | Metric Formula  | Dmin  | Notation |
 |:-:|:-:|:-:|:-:|
 | Number of Cookies in Course Overview Page  | # unique daily cookies on page | 3000 cookies  | C_k |
 | Number of Clicks on Free Trial Button  | # unique daily cookies who clicked  | 240 clicks | C_l |
@@ -58,10 +58,10 @@ Here, we are concerned about whether students click the "free trial" and if stud
 
 #### Evaluation Metrics
 
-***Evaluation metrics*** are the metrics in which we expect to see a change, and are relevant to the business goals we aim to achieve. For each metric we state a $Dmin$ - which marks the minimum change which is practically significant to the business. For instance, stating that any increase in retention that is under 2%, even if statistically significant, is not practical to the business.
+***Evaluation metrics*** are the metrics in which we expect to see a change, and are relevant to the business goals we aim to achieve. For each metric we state a Dmin - which marks the minimum change which is practically significant to the business. For instance, stating that any increase in retention that is under 2%, even if statistically significant, is not practical to the business.
 
 
-| Metric Name  | Metric Formula  | $Dmin$  |
+| Metric Name  | Metric Formula  | Dmin  |
 |:--------:|:--------:|:--------:|
 | Gross Conversion   |  #enrolled / C_l  | 0.01  | 
 | Retention   | #paid / #enrolled  | 0.01  |
